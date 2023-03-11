@@ -1,0 +1,13 @@
+https://webservicetest-android.000webhostapp.com/WebServices/RegistroUsuarios.php?Id_User=1021&Nombre=Guillermo&Apellido=Puentes&type_user=2
+https://webservicetest-android.000webhostapp.com/WebServices/ws_login.php
+
+https://webservicetest-android.000webhostapp.com/WebServices/RegisterProduct.php
+{"Product":[{"ref":"7","Id_Client":"1111","Id_product":"15","cantidad":1,"valor":20000,"observaciones":"none","Id_user":"1021"}]}
+INSERT INTO Factura(Id_Client, dateCurrent, products, valor, observaciones, Id_user) VALUES ("6545", NOW(), '[{"Id": "2", "Name": "Producto 2", "Cant": "1", "Amount": "50000.0"}, {"Id": "1", "Name": "Producto 1", "Cant": "1", "Amount": "20000.0"}]',  "150000", "Esto es una observacion", "1021")
+https://webservicetest-android.000webhostapp.com/WebServices/GetProducts.php
+
+insetar en cliente
+INSERT INTO `Clients`(`Id_Client`, `Nombre`, `tel1`, `tel2`, `direccion`, `email`) VALUES ("3030", "Cliente A1", "315596656", "3920003221", "cll 69r sds", "daviud@live.com")
+
+https://webservicetest-android.000webhostapp.com/WebServices/GetInvoice.php
+https://webservicetest-android.000webhostapp.com/WebServices/GetClients.php

@@ -1,0 +1,3 @@
+bd : id16726728_appsistemasaldia
+user: id16726728_masteruser
+pass: 123456789Aldi@
